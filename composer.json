@@ -1,0 +1,14 @@
+{
+  "name": "vk music downloader",
+  "require": {
+    "php": ">=5.5.9",
+    "ext-curl": "*",
+    "symfony/yaml": ">=3.0",
+    "php-curl-class/php-curl-class": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "MusicDownloader\\": "src/MusicDownloader/"
+    }
+  }
+}
